@@ -1,4 +1,7 @@
 # front-self-service
+```
+Um projeto para estudar as alterações do VueJs 3 e Vuex 4. Estou empolgado!
+```
 
 ## Project setup
 ```
