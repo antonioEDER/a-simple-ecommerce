@@ -23,16 +23,17 @@ São blocos reutilizáveis ​​de código ou lógica que os desenvolvedores po
  * ###### v-for
 > <div v-for="(item, index) in items" key="gerarUmaChave()">
 * ###### v-on ou @
-><button v-on:click="doThis"></button>
-><button v-on:click="doThat('hello', $event)"></button>
-><button @click="doThis"></button>
-><button @click.stop="doThis"></button>
-><button @click.prevent="doThis"></button>
-><form @submit.prevent></form>
-><button @click.stop.prevent="doThis"></button>
-><input @keyup.enter="onEnter" />
-><button v-on:click.once="doThis"></button>
-><button v-on="{ mousedown: doThis, mouseup: doThat }"></button>
+
+> <button v-on:click="doThis"/>
+> <button v-on:click="doThat('hello', $event)"/>
+> <button @click="doThis"/>
+> <button @click.stop="doThis"/>
+> <button @click.prevent="doThis"/>
+> <form @submit.prevent/>
+> <button @click.stop.prevent="doThis"/>
+> <input @keyup.enter="onEnter" />
+> <button v-on:click.once="doThis"/>
+> <button v-on="{ mousedown: doThis, mouseup: doThat }"/>
 
 
 ### Compiles and hot-reloads for development
