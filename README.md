@@ -33,3 +33,9 @@ São blocos reutilizáveis ​​de código ou lógica que os desenvolvedores po
 <input @keyup.enter="onEnter" />
 <button v-on:click.once="doThis"></button>
 <button v-on="{ mousedown: doThis, mouseup: doThat }"></button>
+
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
