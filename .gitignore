@@ -2,6 +2,7 @@
 node_modules
 /dist
 /arquivos_do_curso
+exemplo_readme
 
 
 # local env files
