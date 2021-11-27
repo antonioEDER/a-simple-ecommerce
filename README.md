@@ -25,14 +25,23 @@ São blocos reutilizáveis ​​de código ou lógica que os desenvolvedores po
 * ###### v-on ou @
 
 > < button v-on:click="doThis "/>
+>
 > < button v-on:click="doThat('hello', $event) "/>
+>
 > < button @click="doThis "/>
+>
 > < button @click.stop="doThis "/>
+>
 > < button @click.prevent="doThis "/>
+>
 > < form @submit.prevent/>
+>
 > < button @click.stop.prevent="doThis "/>
+>
 > < input @keyup.enter="onEnter" />
+>
 > < button v-on:click.once="doThis "/>
+>
 > < button v-on="{ mousedown: doThis, mouseup: doThat } "/>
 
 
