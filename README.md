@@ -31,6 +31,29 @@ São blocos reutilizáveis ​​de código ou lógica que os desenvolvedores po
  * ###### v-for
 > < div v-for="(item, index) in items" key="gerarUmaChave() ">
 * ###### v-on ou @
+<<<<<<< HEAD
+=======
+
+> < button v-on:click="doThis "/>
+>
+> < button v-on:click="doThat('hello', $event) "/>
+>
+> < button @click="doThis "/>
+>
+> < button @click.stop="doThis "/>
+>
+> < button @click.prevent="doThis "/>
+>
+> < form @submit.prevent/>
+>
+> < button @click.stop.prevent="doThis "/>
+>
+> < input @keyup.enter="onEnter" />
+>
+> < button v-on:click.once="doThis "/>
+>
+> < button v-on="{ mousedown: doThis, mouseup: doThat } "/>
+>>>>>>> master
 
 > < button v-on:click="doThis "/>
 >
@@ -54,6 +77,7 @@ São blocos reutilizáveis ​​de código ou lógica que os desenvolvedores po
 
 ## O que two-way data binding no Vue?
 ```
+<<<<<<< HEAD
 Basicamente, two-way data binding, é o termo dado a reatividade dos elementos na sua interface. Ou seja, o que acontece no DOM (View), reflete no JavaScript(Model), e o que acontece no JavaScript(Model), reflete no DOM(View). 
 ```
 >  Exemplo: {{ input }}
@@ -70,3 +94,7 @@ Basicamente, two-way data binding, é o termo dado a reatividade dos elementos n
 > updated()  Neste ponto, o Virtual DOM foi renderizado novamente e corrigido.
 > beforeDestroy()  Nesse ponto, os observadores, os componentes filhos e os ouvintes de eventos ainda não foram desativados.
 >  destroyed() Nesse ponto, os observadores, os componentes filhos e os ouvintes de eventos foram desativados.
+=======
+yarn serve
+```
+>>>>>>> master
