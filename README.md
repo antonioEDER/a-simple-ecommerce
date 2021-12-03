@@ -1,6 +1,6 @@
 # front-self-service
 ```
-Um projeto para se aprofundar VueJs 3 juntamente com Vuex 4. Bora aprender?
+Um projeto para se aprofundar VueJs 3 juntamente com Vuex 4, VueRouter 4 e SCSS. Bora aprender?
 ```
 [![N|Solid](https://assets.codepen.io/t-1003/internal/avatars/teams/default.png?fit=crop&format=auto&height=150&version=1513627136&width=150)]
 
