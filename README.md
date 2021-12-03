@@ -1,6 +1,6 @@
 # a-simple-ecommerce
 ```
-Contriu um projeto de e-commerce super simples!
+Eu criei um projeto de e-commerce super simples!
 
 Esse é um projeto para se aprofundar VueJs 3 juntamente com Vuex 4, VueRouter 4 e SCSS. Bora aprender?
 ```
