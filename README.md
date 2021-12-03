@@ -108,3 +108,22 @@ adicionado ao DOM, atualizado ou destruído.
 >  destroyed() Nesse ponto, os observadores, os componentes filhos e os ouvintes de eventos foram desativados.
 
 ```
+## O que Vuex?
+```
+Vuex é um padrão de gerenciamento de estado + biblioteca para aplicativos Vue.js. 
+Ele serve como um armazenamento centralizado para todos os componentes em um aplicativo, 
+com regras que garantem que o estado só pode ser alterado de maneira previsível. 
+```
+> State  "fonte única de verdade"
+>
+> Getters
+>
+> Mutations
+>
+> Actions
+
+```
+## O que single source of truth na Vuex?
+```
+Uma única fonte da verdade Isso é o que a Vuex oferece, e todos os componentes têm acesso direto a este estado global. Assim como os dados da instância Vue, este estado é reativo. Quando um componente atualiza o estado, outros componentes que estão usando esses dados são notificados, recebendo automaticamente o novo valor.
+```
