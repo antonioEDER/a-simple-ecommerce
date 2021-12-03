@@ -107,7 +107,6 @@ adicionado ao DOM, atualizado ou destruído.
 >
 >  destroyed() Nesse ponto, os observadores, os componentes filhos e os ouvintes de eventos foram desativados.
 
-```
 ## O que Vuex?
 ```
 Vuex é um padrão de gerenciamento de estado + biblioteca para aplicativos Vue.js. 
